@@ -22,5 +22,9 @@ export const CATEGORIES = [
     {
         id: 6,
         name: 'Computers',
+    },
+    {
+        id: 7,
+        name: 'Books',
     }
 ]
