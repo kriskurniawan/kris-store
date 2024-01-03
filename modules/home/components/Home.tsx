@@ -3,6 +3,7 @@ import HomeCategory from './HomeCategory'
 import HomeBanner from './HomeBanner'
 import HomeDeal from './HomeDeal'
 import HomeFeature from './HomeFeature'
+import HomeMask from './HomeMask'
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <HomeBanner />
             <HomeDeal />
             <HomeFeature />
+            <HomeMask />
         </>
     )
 }
