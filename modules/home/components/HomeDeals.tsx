@@ -26,20 +26,25 @@ const HomeDeals = () => {
             <div className='relative overflow-x-auto'>
                 <div className="inline-flex">
                     <div className="flex h-56 w-44 border relative">
-                        <div className="px-7 py-4 gap-2 flex flex-col absolute">
-                            <img src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704249255/kris-store/piqoxfsxygjong30kmfh.png" alt="" />
+                        <div className="flex flex-col absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            <img className='w-[98px] h-[98px]' src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704249255/kris-store/piqoxfsxygjong30kmfh.png" alt="" />
                             <span className='text-center'>Clothes</span>
                             <span className='min-w-max p-1 text-center rounded-full bg-red-200 text-red-600 font-semibold'>-25%</span>
                         </div>
                     </div>
-                    <div className="flex h-56 w-44 border justify-center items-center">
-                        test
+                    <div className="flex h-56 w-44 border relative">
+                        <div className="gap-2 flex flex-col absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            <img className='w-[98px] h-[98px]' src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704249540/kris-store/trza0kqss8vegyjrjug0.png" alt="" />
+                            <span className='text-center'>Headphones</span>
+                            <span className='min-w-max p-1 text-center rounded-full bg-red-200 text-red-600 font-semibold'>-25%</span>
+                        </div>
                     </div>
-                    <div className="flex h-56 w-44 border justify-center items-center">
-                        test
-                    </div>
-                    <div className="flex h-56 w-44 border justify-center items-center">
-                        test
+                    <div className="flex h-56 w-44 border relative">
+                        <div className="gap-2 flex flex-col absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            <img className='w-[98px] h-[98px]' src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704249657/kris-store/wnrcil5aok479mtzt1lj.png" alt="" />
+                            <span className='text-center'>Laptops</span>
+                            <span className='min-w-max p-1 text-center rounded-full bg-red-200 text-red-600 font-semibold'>-25%</span>
+                        </div>
                     </div>
                 </div>
             </div>
