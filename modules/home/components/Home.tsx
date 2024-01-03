@@ -1,14 +1,16 @@
 import React from 'react'
 import HomeCategory from './HomeCategory'
 import HomeBanner from './HomeBanner'
-import HomeDeals from './HomeDeals'
+import HomeDeal from './HomeDeal'
+import HomeFeature from './HomeFeature'
 
 const Home = () => {
     return (
         <>
             <HomeCategory />
             <HomeBanner />
-            <HomeDeals />
+            <HomeDeal />
+            <HomeFeature />
         </>
     )
 }

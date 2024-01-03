@@ -3,7 +3,7 @@ import React from 'react'
 
 const HomeBanner = () => {
     return (
-        <div className='flex relative'>
+        <div className='flex relative mb-3'>
             <img src="/assets/images/banner.png" alt="" />
             <span className='absolute top-6 left-8 text-xl'>Latest trending</span>
             <span className='absolute top-12 left-8 text-xl font-semibold'>Electronic items</span>
