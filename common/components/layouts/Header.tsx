@@ -1,7 +1,11 @@
-import React from 'react'
+'use client'
+
+import React, { useState } from 'react'
 import { InputField } from '../elements/InputField'
 
 export const Header = () => {
+    const [inputValue, setInputValue] = useState('');
+    
     return (
         <>
             <header className='sticky top-0 z-50'>
@@ -24,7 +28,6 @@ export const Header = () => {
                     id="search"
                     placeholder='Search'
                     className="w-full h-12 rounded-lg border border-slate-300 bg-slate-100 pl-10"
-                    autoComplete='off'
                     />
             </div>
         </>

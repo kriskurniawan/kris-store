@@ -6,11 +6,15 @@ interface InputProps {
     id: string
     className?: string
     placeholder?: string
-    autoComplete?: string
 }
 
 export const InputField = (props: InputProps) => {
     return (
-        <input type={props.type} name={props.name} id={props.id} className={props.className} placeholder={props.placeholder} autoComplete={props.autoComplete} />
+        <input
+            type={props.type}
+            name={props.name}
+            id={props.id}
+            className={props.className}
+            placeholder={props.placeholder} />
     )
 }
