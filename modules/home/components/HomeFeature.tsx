@@ -8,7 +8,7 @@ const HomeFeature = () => {
                     <span className='font-semibold'>Home and outdoor</span>
                 </div>
                 <div className='relative overflow-x-auto'>
-                    <div className="flex flex-row">
+                    <div className="inline-flex">
                         <div className="flex h-56 w-44 border relative">
                             <div className="gap-2 flex flex-col absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                                 <img className='w-24 h-24' src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704252318/kris-store/ipgpubzf62fl7uagkuzt.jpg" alt="" />
@@ -42,7 +42,7 @@ const HomeFeature = () => {
                     <span className='font-semibold'>Consumer electronics</span>
                 </div>
                 <div className='relative overflow-x-auto'>
-                    <div className="flex flex-row">
+                    <div className="inline-flex">
                         <div className="flex h-56 w-44 border relative">
                             <div className="gap-2 flex flex-col absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                                 <img className='w-24 h-24' src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704256590/kris-store/msftp0eeck4oablglala.png" alt="" />
