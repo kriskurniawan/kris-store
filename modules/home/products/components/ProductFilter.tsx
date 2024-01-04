@@ -3,7 +3,7 @@ import React from 'react'
 const ProductFilter = () => {
     return (
         <div className='h-12 w-full flex border bg-white'>
-            <div className='flex justify-between px-3'>
+            <div className='w-full flex justify-between'>
                 <div className="flex m-auto gap-2">
                     <button className='min-w-max h-7 px-3 border rounded-md'>
                         <div className="flex justify-between gap-5">
