@@ -23,7 +23,9 @@ export const Header = () => {
                     name="search"
                     id="search"
                     placeholder='Search'
-                    className="w-full h-12 rounded-lg border border-slate-300 bg-slate-100 pl-10" />
+                    className="w-full h-12 rounded-lg border border-slate-300 bg-slate-100 pl-10"
+                    autoComplete='off'
+                    />
             </div>
         </>
     )
