@@ -4,6 +4,7 @@ import HomeBanner from './HomeBanner'
 import HomeDeal from './HomeDeal'
 import HomeFeature from './HomeFeature'
 import HomeMask from './HomeMask'
+import HomeRecommended from './HomeRecommended'
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <HomeDeal />
             <HomeFeature />
             <HomeMask />
+            <HomeRecommended />
         </>
     )
 }
