@@ -1,4 +1,5 @@
 import { InputField } from '@/common/components/elements/InputField'
+import Link from 'next/link'
 import React from 'react'
 
 const ProductHeader = () => {
@@ -7,7 +8,9 @@ const ProductHeader = () => {
             <header className='sticky top-0 z-50'>
                 <div className="p-5 w-full h-16 flex items-center justify-between bg-white">
                     <div className="flex items-center gap-5">
-                        <img src="/assets/icons/arrow_back.svg" alt="" />
+                        <Link href="/">
+                            <img src="/assets/icons/arrow_back.svg" alt="" />
+                        </Link>
                         <span className='font-semibold'>Mobile accessory</span>
                     </div>
                     <div className="flex items-center gap-5">
