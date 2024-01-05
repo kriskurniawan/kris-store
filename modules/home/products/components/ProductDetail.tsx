@@ -103,7 +103,7 @@ const ProductDetail = () => {
                         </div>
                     </div>
                     <hr className='ml-3 mr-3' />
-                    <div className="flex gap-5">
+                    <div className="flex gap-5 px-3">
                         <div className="flex gap-2 p-5 justify-center items-center">
                             <img className='w-7 h-5' src="/assets/icons/germany.png" alt="" />
                             <span className='text-slate-500'>Germany</span>
