@@ -105,7 +105,7 @@ const CartItem = () => {
                         <span className='font-semibold text-lg'>Total:</span>
                         <span className='font-semibold text-lg'>$220.00</span>
                     </div>
-                    <button className='py-3 w-full h-12 bg-[#00B517] text-white rounded-lg text-lg'>Checkout (3 items )</button>
+                    <button className='py-3 w-full h-12 bg-[#00B517] text-white rounded-lg text-lg'>Checkout (3 items)</button>
                 </div>
             </div>
         </>
