@@ -6,6 +6,7 @@ interface InputProps {
     id: string
     className?: string
     placeholder?: string
+    defaultValue?: string
 }
 
 export const InputField = (props: InputProps) => {
@@ -15,6 +16,8 @@ export const InputField = (props: InputProps) => {
             name={props.name}
             id={props.id}
             className={props.className}
-            placeholder={props.placeholder} />
+            placeholder={props.placeholder}
+            defaultValue={props.defaultValue}
+        />
     )
 }
