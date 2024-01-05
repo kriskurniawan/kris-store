@@ -10,7 +10,7 @@ export const PRODUCTS = [
     {
         id: 2,
         name: 'Xiaomi Mi 10',
-        image: 'https://res.cloudinary.com/dnbel4bdy/image/upload/v1704256590/kris-store/wupq5u2k4ixo6s7sx5ex.png',
+        image: 'https://res.cloudinary.com/dnbel4bdy/image/upload/v1704256590/kris-store/kyfbnsl6sch5ophxz445.png',
         rating: 5,
         price: 57.70,
         description: 'The best product in the world!',
