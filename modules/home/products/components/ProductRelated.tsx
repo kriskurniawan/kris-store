@@ -6,7 +6,7 @@ const ProductRelated = () => {
             <div className='flex mb-3'>
                 <span className='font-semibold'>You may also like</span>
             </div>
-            <div className='flex gap-2 justify-center px-3 overflow-x-auto'>
+            <div className='flex gap-2 overflow-x-auto'>
                 <div className="h-full w-48 border rounded-lg bg-white shrink-0">
                     <div className="gap-2 flex flex-col">
                         <div className='m-auto p-3'>
