@@ -7,13 +7,10 @@ import React from 'react'
 const ProductsPage = () => {
     return (
         <>
-            <div className="h-screen mx-auto">
-                <ProductHeader />
-                <HomeCategory />
-                <Product />
-                </div>
+            <ProductHeader />
+            <HomeCategory />
+            <Product />
             <Footer />
-            
         </>
     )
 }

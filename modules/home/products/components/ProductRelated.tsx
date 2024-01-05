@@ -1,13 +1,13 @@
 import React from 'react'
 
-const HomeRecommended = () => {
+const ProductRelated = () => {
     return (
-        <div className='mb-3'>
-            <div className='flex'>
-                <span className='p-4 font-semibold'>Recommended items</span>
+        <div className='mb-3 px-3'>
+            <div className='flex mb-3'>
+                <span className='font-semibold'>You may also like</span>
             </div>
-            <div className='flex flex-wrap gap-2 justify-center'>
-                <div className="h-full w-48 border rounded-lg bg-white">
+            <div className='flex gap-2 justify-center px-3 overflow-x-auto'>
+                <div className="h-full w-48 border rounded-lg bg-white shrink-0">
                     <div className="gap-2 flex flex-col">
                         <div className='m-auto p-3'>
                             <img className='w-44 h-44' src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704256590/kris-store/wupq5u2k4ixo6s7sx5ex.png" alt="" />
@@ -18,7 +18,7 @@ const HomeRecommended = () => {
                         </div>
                     </div>
                 </div>
-                <div className="h-full w-48 border rounded-lg bg-white">
+                <div className="h-full w-48 border rounded-lg bg-white shrink-0">
                     <div className="gap-2 flex flex-col">
                         <div className='m-auto p-3'>
                             <img className='w-44 h-44' src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704256589/kris-store/gtyqf7qtqzu0brfjrdtn.jpg" alt="" />
@@ -29,7 +29,7 @@ const HomeRecommended = () => {
                         </div>
                     </div>
                 </div>
-                <div className="h-full w-48 border rounded-lg bg-white">
+                <div className="h-full w-48 border rounded-lg bg-white shrink-0">
                     <div className="gap-2 flex flex-col">
                         <div className='m-auto p-3'>
                             <img className='w-44 h-44' src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704256590/kris-store/swq84uwgmd9125bmwcxo.png" alt="" />
@@ -40,7 +40,7 @@ const HomeRecommended = () => {
                         </div>
                     </div>
                 </div>
-                <div className="h-full w-48 border rounded-lg bg-white">
+                <div className="h-full w-48 border rounded-lg bg-white shrink-0">
                     <div className="gap-2 flex flex-col">
                         <div className='m-auto p-3'>
                             <img className='w-44 h-44' src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704256589/kris-store/eequ2k8q0iu342a4fxlk.png" alt="" />
@@ -56,4 +56,4 @@ const HomeRecommended = () => {
     )
 }
 
-export default HomeRecommended
+export default ProductRelated
