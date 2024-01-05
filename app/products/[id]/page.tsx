@@ -1,7 +1,7 @@
 import Footer from '@/common/components/layouts/Footer'
-import ProductDetail from '@/modules/home/products/components/ProductDetail'
-import ProductDetailHeader from '@/modules/home/products/components/ProductDetailHeader'
-import ProductRelated from '@/modules/home/products/components/ProductRelated'
+import ProductDetail from '@/modules/products/components/ProductDetail'
+import ProductDetailHeader from '@/modules/products/components/ProductDetailHeader'
+import ProductRelated from '@/modules/products/components/ProductRelated'
 import React from 'react'
 
 const ProductDetailPage = () => {
