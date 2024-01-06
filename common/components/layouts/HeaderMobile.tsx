@@ -1,16 +1,12 @@
-'use client'
-
-import React, { useState } from 'react'
+import Link from 'next/link'
+import React from 'react'
 import { InputField } from '../elements/InputField'
-import Link from 'next/link';
 
-export const Header = () => {
-    const [inputValue, setInputValue] = useState('');
-
+const HeaderMobile = () => {
     return (
         <>
-            <header className='sticky top-0 z-50'>
-                <div className="p-3 w-full h-16 flex items-center justify-between bg-white">
+            <header className='sticky top-0 z-50 pb-2'>
+                <div className="p-5 w-full h-16 flex items-center justify-between bg-white">
                     <div className="flex items-center gap-5">
                         <img src="/assets/icons/menu.svg" alt="" />
                         <img src="/assets/icons/logo.svg" alt="" />
@@ -23,7 +19,7 @@ export const Header = () => {
                     </div>
                 </div>
             </header>
-            <div className='px-3 pt-2 relative'>
+            <div className='px-5 relative'>
                 <img src="/assets/icons/search.svg" alt="" className='absolute top-1/2 -translate-y-1/2 ml-3' style={{ filter: 'brightness(4) invert(1)' }} />
                 <InputField
                     type="text"
@@ -36,3 +32,5 @@ export const Header = () => {
         </>
     )
 }
+
+export default HeaderMobile

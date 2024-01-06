@@ -1,4 +1,4 @@
-import Footer from '@/common/components/layouts/Footer'
+import Footer from '@/common/components/layouts/FooterMobile'
 import ProductDetail from '@/modules/products/components/ProductDetail'
 import ProductDetailHeader from '@/modules/products/components/ProductDetailHeader'
 import ProductRelated from '@/modules/products/components/ProductRelated'

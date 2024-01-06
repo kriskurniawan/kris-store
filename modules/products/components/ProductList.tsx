@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const ProductList = () => {
     return (
-        <div className="p-3">
+        <div className="px-3">
             {PRODUCTS.map((product, index) => (
                 <Link href={`/products/${product.id}`} key={index}>
                     <Card key={index} className='w-full h-28 border bg-white rounded-lg mb-2'>

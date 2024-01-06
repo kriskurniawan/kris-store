@@ -5,7 +5,7 @@ import React from 'react'
 const ProductHeader = () => {
     return (
         <>
-            <header className='sticky top-0 z-50'>
+            <header className='sticky top-0 z-50 pb-2'>
                 <div className="p-5 w-full h-16 flex items-center justify-between bg-white">
                     <div className="flex items-center gap-5">
                         <Link href="/">
@@ -19,7 +19,7 @@ const ProductHeader = () => {
                     </div>
                 </div>
             </header>
-            <div className='px-3 pt-2 relative'>
+            <div className='px-5 relative'>
                 <img src="/assets/icons/search.svg" alt="" className='absolute top-1/2 -translate-y-1/2 ml-3' style={{ filter: 'brightness(4) invert(1)' }} />
                 <InputField
                     type="text"
