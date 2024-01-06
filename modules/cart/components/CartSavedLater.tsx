@@ -3,7 +3,7 @@ import React from 'react'
 const CartSavedLater = () => {
     return (
         <div className='p-3'>
-            <div className="mb-3 w-full max-h-full bg-white border border-slate-300 rounded-lg">
+            <div className="mb-2 w-full max-h-full bg-white border border-slate-300 rounded-lg">
                 <div className="flex gap-3 items-center">
                     <div className="justify-center">
                         <img className="w-28 h-28 p-3" src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704489443/kris-store/qyrpkzirehqdjoqzvg0b.png" alt="" />
@@ -20,7 +20,7 @@ const CartSavedLater = () => {
                     </div>
                 </div>
             </div>
-            <div className="mb-3 w-full max-h-full bg-white border border-slate-300 rounded-lg">
+            <div className="mb-2 w-full max-h-full bg-white border border-slate-300 rounded-lg">
                 <div className="flex gap-3 items-center">
                     <div className="justify-center">
                         <img className="w-28 h-28 p-3" src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704256590/kris-store/kyfbnsl6sch5ophxz445.png" alt="" />
@@ -37,7 +37,7 @@ const CartSavedLater = () => {
                     </div>
                 </div>
             </div>
-            <div className="mb-3 w-full max-h-full bg-white border border-slate-300 rounded-lg">
+            <div className="mb-2 w-full max-h-full bg-white border border-slate-300 rounded-lg">
                 <div className="flex gap-3 items-center">
                     <div className="justify-center">
                         <img className="w-28 h-28 p-3" src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704419192/kris-store/pjaahaibhrswqzsdwhtc.png" alt="" />

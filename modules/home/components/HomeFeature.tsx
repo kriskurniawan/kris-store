@@ -4,7 +4,7 @@ const HomeFeature = () => {
     return (
         <>
             <div className='bg-white mb-3'>
-                <div className="p-4 flex justify-items-center">
+                <div className="p-3 flex justify-items-center">
                     <span className='font-semibold'>Home and outdoor</span>
                 </div>
                 <div className='relative overflow-x-auto'>
@@ -32,13 +32,13 @@ const HomeFeature = () => {
                         </div>
                     </div>
                 </div>
-                <div className="p-4 flex justify-items-center gap-3 border">
+                <div className="p-3 flex justify-items-center gap-3 border">
                     <span className='font-semibold text-blue-600'>Source now</span>
                     <img src="/assets/icons/arrow_forward.svg" alt="" style={{ fill: 'blue' }} />
                 </div>
             </div>
             <div className='bg-white mb-3'>
-                <div className="p-4 flex justify-items-center">
+                <div className="p-3 flex justify-items-center">
                     <span className='font-semibold'>Consumer electronics</span>
                 </div>
                 <div className='relative overflow-x-auto'>
@@ -66,7 +66,7 @@ const HomeFeature = () => {
                         </div>
                     </div>
                 </div>
-                <div className="p-4 flex justify-items-center gap-3 border">
+                <div className="p-3 flex justify-items-center gap-3 border">
                     <span className='font-semibold text-blue-600'>Source now</span>
                     <img src="/assets/icons/arrow_forward.svg" alt="" style={{ fill: 'blue' }} />
                 </div>

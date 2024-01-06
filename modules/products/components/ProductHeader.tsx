@@ -19,7 +19,7 @@ const ProductHeader = () => {
                     </div>
                 </div>
             </header>
-            <div className='px-5 py-1 relative'>
+            <div className='px-3 pt-2 relative'>
                 <img src="/assets/icons/search.svg" alt="" className='absolute top-1/2 -translate-y-1/2 ml-3' style={{ filter: 'brightness(4) invert(1)' }} />
                 <InputField
                     type="text"

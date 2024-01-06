@@ -4,7 +4,7 @@ const HomeRecommended = () => {
     return (
         <div className='mb-3'>
             <div className='flex'>
-                <span className='p-4 font-semibold'>Recommended items</span>
+                <span className='p-3 font-semibold'>Recommended items</span>
             </div>
             <div className='flex flex-wrap gap-2 justify-center'>
                 <div className="h-full w-48 border rounded-lg bg-white">

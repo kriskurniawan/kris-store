@@ -3,7 +3,7 @@ import React from 'react'
 const HomeDeal = () => {
     return (
         <div className='bg-white mb-3'>
-            <div className='flex justify-between p-4'>
+            <div className='flex justify-between p-3'>
                 <div className="flex flex-col justify-items-center">
                     <span className='font-semibold'>Deals and offers</span>
                     <span className='font-normal'>Electronic equipments</span>

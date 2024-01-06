@@ -10,7 +10,7 @@ export const Header = () => {
     return (
         <>
             <header className='sticky top-0 z-50'>
-                <div className="p-5 w-full h-16 flex items-center justify-between bg-white">
+                <div className="p-3 w-full h-16 flex items-center justify-between bg-white">
                     <div className="flex items-center gap-5">
                         <img src="/assets/icons/menu.svg" alt="" />
                         <img src="/assets/icons/logo.svg" alt="" />
@@ -23,7 +23,7 @@ export const Header = () => {
                     </div>
                 </div>
             </header>
-            <div className='px-5 py-1 relative'>
+            <div className='px-3 pt-2 relative'>
                 <img src="/assets/icons/search.svg" alt="" className='absolute top-1/2 -translate-y-1/2 ml-3' style={{ filter: 'brightness(4) invert(1)' }} />
                 <InputField
                     type="text"

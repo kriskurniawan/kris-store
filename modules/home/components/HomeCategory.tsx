@@ -5,8 +5,8 @@ import Link from 'next/link'
 
 const HomeCategory = () => {
     return (
-        <div className='ml-5 overflow-x-auto relative'>
-            <div className='inline-flex py-5 gap-3'>
+        <div className='ml-3 overflow-x-auto relative'>
+            <div className='inline-flex py-3 gap-3'>
                 <Link href='/products'>
                     <Button
                         className='w-32 h-10 bg-slate-100 border border-slate-300 rounded-lg text-blue-400'>
