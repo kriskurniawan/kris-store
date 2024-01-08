@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import React, { useState } from 'react'
+import { Icon } from '@iconify/react';
 
 function NavLink({ to, children }: any) {
     return <a href={to} className={`mx-4`}>
@@ -15,13 +16,66 @@ function MobileNav({ open, setOpen }: any) {
             <div className="flex items-center justify-center filter bg-white h-16 shadow-sm md:hidden"> {/*logo container*/}
                 <img src="/assets/icons/logo.svg" alt="" />
             </div>
-            <div className="flex flex-col gap-2 p-4">
-                <a className="text-xl font-medium" href="/about" onClick={() => setTimeout(() => { setOpen(!open) }, 100)}>
-                    About
-                </a>
-                <a className="text-xl font-normal" href="/contact" onClick={() => setTimeout(() => { setOpen(!open) }, 100)}>
-                    Contact
-                </a>
+            <div className='flex flex-col p-5 gap-5'>
+                <div className="flex gap-2">
+                    <Icon icon="lucide:home" width="24" height="24" />
+                    <Link href="/products">
+                        <span className="text-lg">Home</span>
+                    </Link>
+                </div>
+                <div className="flex gap-2">
+                    <Icon icon="lucide:list" width="24" height="24" />
+                    <Link href="/">
+                        <span className="text-lg">Categories</span>
+                    </Link>
+                </div>
+                <div className="flex gap-2">
+                    <Icon icon="lucide:heart" width="24" height="24" />
+                    <Link href="/">
+                        <span className="text-lg">Favorites</span>
+                    </Link>
+                </div>
+                <div className="flex gap-2">
+                    <Icon icon="lucide:archive" width="24" height="24" />
+                    <Link href="/">
+                        <span className="text-lg">My Orders</span>
+                    </Link>
+                </div>
+                <hr className="h-px my-2 bg-gray-200 border-0 dark:bg-gray-300" />
+                <div className="flex gap-2">
+                    <Icon icon="lucide:globe" width="24" height="24" />
+                    <Link href="/">
+                        <span className="text-lg">Indonesia | IDR</span>
+                    </Link>
+                </div>
+                <div className="flex gap-2">
+                    <Icon icon="lucide:globe" width="24" height="24" />
+                    <Link href="/">
+                        <span className="text-lg">Contact us</span>
+                    </Link>
+                </div>
+                <div className="flex gap-2">
+                    <Icon icon="lucide:globe" width="24" height="24" />
+                    <Link href="/">
+                        <span className="text-lg">About</span>
+                    </Link>
+                </div>
+                <hr className="h-px my-2 bg-gray-200 border-0 dark:bg-gray-300" />
+                <div className="flex gap-2">
+                    <Link href="/">
+                        <span className="text-lg ml-7">User agreement</span>
+                    </Link>
+                </div>
+                <div className="flex gap-2">
+                    <Link href="/">
+                        <span className="text-lg ml-7">Partnership</span>
+                    </Link>
+                </div>
+                <div className="flex gap-2">
+                    <Link href="/">
+                        <span className="text-lg ml-7">Privacy policy</span>
+                    </Link>
+                </div>
             </div>
         </div>
     )
@@ -35,7 +89,7 @@ const HeaderMobile = () => {
         <nav className="flex filter bg-white p-5 h-16 items-center sticky top-0 z-50 justify-between">
             <MobileNav open={open} setOpen={setOpen} />
             <div className="flex items-center">
-                <div className="z-50 flex relative w-8 h-6 flex-col justify-between items-center md:hidden" onClick={() => {
+                <div className="cursor-pointer z-50 flex relative w-8 h-6 flex-col justify-between items-center md:hidden" onClick={() => {
                     setOpen(!open)
                 }}>
                     {/* hamburger button */}
@@ -45,12 +99,9 @@ const HeaderMobile = () => {
                 </div>
                 <img className='ml-5' src="/assets/icons/logo.svg" alt="" />
                 <div className="hidden md:flex">
-                    <NavLink to="/contact">
-                        CONTACT
-                    </NavLink>
-                    <NavLink to="/about">
-                        ABOUT
-                    </NavLink>
+                    <Link href="/products">
+                        <span className="ml-5">Product</span>
+                    </Link>
                 </div>
             </div>
             <div className="flex items-center gap-5">
