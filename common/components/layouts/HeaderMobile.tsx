@@ -12,12 +12,12 @@ function NavLink({ to, children }: any) {
 
 function MobileNav({ open, setOpen }: any) {
     return (
-        <div className={`absolute top-0 left-0 h-screen w-full bg-white transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out filter drop-shadow-md`}>
+        <div className={`absolute top-0 left-0 h-screen w-full bg-white transform ${open ? "-translate-x-0" : "-translate-x-full opacity-0"} transition-transform duration-300 ease-in-out filter drop-shadow-md`}>
             <div className="flex items-center justify-center filter bg-white h-16 shadow-sm md:hidden"> {/*logo container*/}
                 <img src="/assets/icons/logo.svg" alt="" />
             </div>
             <div className='flex flex-col p-5 gap-5'>
-                <div className="flex gap-2">
+                <div className="flex gap-2 bg-blue">
                     <Icon icon="lucide:home" width="24" height="24" />
                     <Link href="/products">
                         <span className="text-lg">Home</span>
