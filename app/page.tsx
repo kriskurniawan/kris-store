@@ -1,11 +1,11 @@
-import Footer from '@/common/components/layouts/FooterMobile'
-import HeaderMobile from '@/common/components/layouts/HeaderMobile'
+import Footer from '@/common/components/layouts/Footer'
+import Header from '@/common/components/layouts/Header'
 import Home from '@/modules/home'
 
 export default function Homepage() {
   return (
     <>
-      <HeaderMobile />
+      <Header />
       <Home />
       <Footer />
     </>

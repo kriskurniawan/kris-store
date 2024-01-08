@@ -1,4 +1,4 @@
-import Footer from '@/common/components/layouts/FooterMobile'
+import Footer from '@/common/components/layouts/Footer'
 import Cart from '@/modules/cart'
 import React from 'react'
 

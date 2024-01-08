@@ -1,6 +1,6 @@
 import React from 'react'
 
-const FooterMobile = () => {
+const Footer = () => {
     return (
         <div className='flex flex-row gap-5 h-12 w-full border sticky bottom-0 z-50 bg-white'>
             <div className="flex flex-col m-auto">
@@ -23,4 +23,4 @@ const FooterMobile = () => {
     )
 }
 
-export default FooterMobile
+export default Footer

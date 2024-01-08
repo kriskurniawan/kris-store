@@ -1,4 +1,4 @@
-import Footer from '@/common/components/layouts/FooterMobile'
+import Footer from '@/common/components/layouts/Footer'
 import HomeCategory from '@/modules/home/components/HomeCategory'
 import Product from '@/modules/products'
 import ProductHeader from '@/modules/products/components/ProductHeader'
