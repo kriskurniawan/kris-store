@@ -2,7 +2,7 @@ import React from 'react'
 
 const HomeFeature = () => {
     return (
-        <>
+        <div className='lg:hidden'>
             <div className='bg-white mb-3'>
                 <div className="p-3 flex justify-items-center">
                     <span className='font-semibold'>Home and outdoor</span>
@@ -71,7 +71,7 @@ const HomeFeature = () => {
                     <img src="/assets/icons/arrow_forward.svg" alt="" style={{ fill: 'blue' }} />
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

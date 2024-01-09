@@ -2,7 +2,7 @@ import React from 'react'
 
 const HomeRecommended = () => {
     return (
-        <div className='mb-3'>
+        <div className='mb-3 lg:hidden'>
             <div className='flex'>
                 <span className='p-3 font-semibold'>Recommended items</span>
             </div>
