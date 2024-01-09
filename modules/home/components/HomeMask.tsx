@@ -4,7 +4,7 @@ import React from 'react'
 const HomeMask = () => {
     return (
         <>
-            <div className='flex relative mb-3'>
+            <div className='flex relative mb-3 lg:hidden'>
                 <img className='absolute w-full h-[200px] lg:h-[300px] object-cover object-right' src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704256593/kris-store/yyt9xxump5e4kwxr8huj.png" alt="" />
                 <div className='absolute w-full h-[200px] lg:h-[300px] z-10 bg-gradient-to-r from-blue-700 to-yellow-100 opacity-80' />
                 <div className='w-full h-[200px] lg:h-[300px] z-40'>
