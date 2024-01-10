@@ -19,7 +19,7 @@ const HomeBanner = () => {
             <div className="hidden lg:flex px-32 mt-20 mb-5">
                 <div className="bg-white w-full h-96 border rounded-lg">
                     <div className="flex p-5 items-center justify-center gap-3">
-                        <div className="flex flex-col w-56 h-full gap-3 max-[1400px]:hidden">
+                        <div className="flex flex-col w-full h-full gap-3 max-[1400px]:hidden">
                             <div className='flex bg-blue-100 items-center rounded-lg'>
                                 <span className='font-semibold p-2'>Automobiles</span>
                             </div>
@@ -48,7 +48,7 @@ const HomeBanner = () => {
                                 <span className='ml-3'>More category</span>
                             </div>
                         </div>
-                        <img className='px-3 max-w-full h-[340px]' src="/assets/images/banner.png" alt="" />
+                        <img className='w-[2800px] h-[340px] object-fill max-[1180px]:w-[500px]' src="/assets/images/banner.png" alt="" />
                         <div className="flex flex-col w-60 h-full gap-3">
                             <div className='flex flex-col p-3 w-56 h-40 bg-blue-100 rounded-lg gap-2'>
                                 <div className="flex gap-2">
