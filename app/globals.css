@@ -7,8 +7,8 @@
 }
 
 .overflow-x-auto {
-  -ms-overflow-style: none; /* Untuk IE dan Edge */
-  scrollbar-width: none; /* Untuk Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 /* :root {

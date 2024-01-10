@@ -5,7 +5,7 @@ const HomeBanner = () => {
     return (
         <>
             <div className='flex lg:hidden relative mb-3'>
-                <img src="/assets/images/banner.png" alt="" />
+                <img className='w-full h-72' src="/assets/images/banner.png" alt="" />
                 <span className='absolute top-6 left-8 text-xl'>Latest trending</span>
                 <span className='absolute top-12 left-8 text-xl font-semibold'>Electronic items</span>
                 <div className='absolute top-24 left-8'>
@@ -16,8 +16,8 @@ const HomeBanner = () => {
                     </Button>
                 </div>
             </div>
-            <div className="hidden lg:flex px-32 pt-20 pb-10">
-                <div className="bg-white w-full h-96 border">
+            <div className="hidden lg:flex px-32 mt-20 mb-5">
+                <div className="bg-white w-full h-96 border rounded-lg">
                     <div className="flex p-5 items-center justify-center gap-3">
                         <div className="flex flex-col w-56 h-full gap-3 max-[1400px]:hidden">
                             <div className='flex bg-blue-100 items-center rounded-lg'>
