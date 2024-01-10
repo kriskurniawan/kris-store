@@ -81,41 +81,103 @@ const HomeFeature = () => {
                         <span className='absolute top-6 left-8 text-xl w-32 h-full flex flex-wrap font-semibold'>Home and outdoor</span>
                         <Button className='absolute top-24 left-8 bg-white rounded-lg max-w-full h-10 px-2'>Source now</Button>
                     </div>
-                    <div className="flex flex-col">
+                    <div className="flex flex-col overflow-x-auto relative">
                         <div className="flex">
-                            <div className="flex h-40 w-64 border justify-between shrink-0">
-                                <div className="flex flex-col p-3">
+                            <div className="flex h-40 w-[280px] border shrink-0 relative">
+                                <div className="flex flex-col p-3 absolute">
                                     <span className='font-semibold'>Soft chairs</span>
                                     <span className='text-sm text-slate-500'>Form</span>
                                     <span className='text-sm text-slate-500'>USD 19</span>
                                 </div>
-                                <div className="flex flex-col p-2">
-                                    <div className='w-24 h-full relative'>
-                                        <img className='object-contain bottom-0 absolute' src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704252486/kris-store/s2ik2gdqjvgxid3wlhyx.png" alt="" />
+                                <div className="flex flex-col absolute">
+                                    <div className='w-24 h-24 absolute top-12 left-44'>
+                                        <img className='object-contain w-24 h-24' src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704252486/kris-store/s2ik2gdqjvgxid3wlhyx.png" alt="" />
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex h-40 w-64 border justify-between shrink-0">
-                                <div className="flex flex-col p-3">
-                                    <span className='font-semibold'>Soft & chairs</span>
+                            <div className="flex h-40 w-[280px] border shrink-0 relative">
+                                <div className="flex flex-col p-3 absolute">
+                                    <span className='font-semibold'>Sofa & chairs</span>
                                     <span className='text-sm text-slate-500'>Form</span>
                                     <span className='text-sm text-slate-500'>USD 19</span>
                                 </div>
-                                <div className="flex flex-col p-2">
-                                    <div className='w-24 h-full relative'>
-                                        <img className='object-contain bottom-0 absolute' src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704853632/kris-store/pnpaqh62ytr9fu4wrb2k.png" alt="" />
+                                <div className="flex flex-col absolute">
+                                    <div className='w-24 h-24 absolute top-12 left-44'>
+                                        <img className='object-contain w-24 h-24' src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704853632/kris-store/pnpaqh62ytr9fu4wrb2k.png" alt="" />
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex h-40 w-64 border justify-between shrink-0">
-                                <div className="flex flex-col p-3">
+                            <div className="flex h-40 w-[280px] border shrink-0 relative">
+                                <div className="flex flex-col p-3 absolute">
                                     <span className='font-semibold'>Kitchen dishes</span>
                                     <span className='text-sm text-slate-500'>Form</span>
                                     <span className='text-sm text-slate-500'>USD 19</span>
                                 </div>
-                                <div className="flex flex-col p-2">
-                                    <div className='w-24 h-full relative'>
-                                        <img className='object-contain bottom-0 absolute' src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704853776/kris-store/vb1mgca2m44bnoxunzb1.png" alt="" />
+                                <div className="flex flex-col absolute">
+                                    <div className='w-24 h-24 absolute top-12 left-44'>
+                                        <img className='object-contain w-24 h-24' src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704853776/kris-store/vb1mgca2m44bnoxunzb1.png" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="flex h-40 w-[280px] border shrink-0 relative">
+                                <div className="flex flex-col p-3 absolute">
+                                    <span className='font-semibold'>Smart watches</span>
+                                    <span className='text-sm text-slate-500'>Form</span>
+                                    <span className='text-sm text-slate-500'>USD 19</span>
+                                </div>
+                                <div className="flex flex-col absolute">
+                                    <div className='w-24 h-24 absolute top-12 left-44'>
+                                        <img className='object-contain w-24 h-24' src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704861304/kris-store/whue5hdbebivo0fpcykm.png" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="flex">
+                            <div className="flex h-40 w-[280px] border shrink-0 relative">
+                                <div className="flex flex-col p-3 absolute">
+                                    <span className='font-semibold'>Kitchen mixer</span>
+                                    <span className='text-sm text-slate-500'>Form</span>
+                                    <span className='text-sm text-slate-500'>USD 19</span>
+                                </div>
+                                <div className="flex flex-col absolute">
+                                    <div className='w-24 h-24 absolute top-12 left-44'>
+                                        <img className='object-contain w-24 h-24' src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704861812/kris-store/tcpuu8jxvt3ic0qohzqq.png" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="flex h-40 w-[280px] border shrink-0 relative">
+                                <div className="flex flex-col p-3 absolute">
+                                    <span className='font-semibold'>Blenders</span>
+                                    <span className='text-sm text-slate-500'>Form</span>
+                                    <span className='text-sm text-slate-500'>USD 19</span>
+                                </div>
+                                <div className="flex flex-col absolute">
+                                    <div className='w-24 h-24 absolute top-12 left-44'>
+                                        <img className='object-contain w-24 h-24' src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704861812/kris-store/p5gf7fvdalfxqqxpeoo1.png" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="flex h-40 w-[280px] border shrink-0 relative">
+                                <div className="flex flex-col p-3 absolute">
+                                    <span className='font-semibold'>Home appliance</span>
+                                    <span className='text-sm text-slate-500'>Form</span>
+                                    <span className='text-sm text-slate-500'>USD 19</span>
+                                </div>
+                                <div className="flex flex-col absolute">
+                                    <div className='w-24 h-24 absolute top-12 left-44'>
+                                        <img className='object-cover w-24 h-24' src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704861812/kris-store/akk8v3kna1glnglzemmk.jpg" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="flex h-40 w-[280px] border shrink-0 relative">
+                                <div className="flex flex-col p-3 absolute">
+                                    <span className='font-semibold'>Coffee maker</span>
+                                    <span className='text-sm text-slate-500'>Form</span>
+                                    <span className='text-sm text-slate-500'>USD 19</span>
+                                </div>
+                                <div className="flex flex-col absolute">
+                                    <div className='w-24 h-24 absolute top-12 left-44'>
+                                        <img className='object-contain w-24 h-24' src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704861812/kris-store/ncau2u4vg90nhcw5qdwk.png" alt="" />
                                     </div>
                                 </div>
                             </div>
