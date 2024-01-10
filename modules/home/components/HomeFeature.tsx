@@ -86,7 +86,7 @@ const HomeFeature = () => {
                         </div>
                         <div className="flex flex-wrap overflow-x-auto relative">
                             <div className="flex">
-                                <div className="flex h-40 w-[280px] border shrink-0 relative">
+                                <div className="flex h-[159px] w-[280px] border shrink-0 relative">
                                     <div className="flex flex-col p-3 absolute">
                                         <span className='font-semibold'>Soft chairs</span>
                                         <span className='text-sm text-slate-500'>Form</span>
@@ -98,7 +98,7 @@ const HomeFeature = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="flex h-40 w-[280px] border shrink-0 relative">
+                                <div className="flex h-[159px] w-[280px] border shrink-0 relative">
                                     <div className="flex flex-col p-3 absolute">
                                         <span className='font-semibold'>Sofa & chairs</span>
                                         <span className='text-sm text-slate-500'>Form</span>
@@ -110,7 +110,7 @@ const HomeFeature = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="flex h-40 w-[280px] border shrink-0 relative">
+                                <div className="flex h-[159px] w-[280px] border shrink-0 relative">
                                     <div className="flex flex-col p-3 absolute">
                                         <span className='font-semibold'>Kitchen dishes</span>
                                         <span className='text-sm text-slate-500'>Form</span>
@@ -122,7 +122,7 @@ const HomeFeature = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="flex h-40 w-[280px] border shrink-0 relative">
+                                <div className="flex h-[159px] w-[280px] border shrink-0 relative">
                                     <div className="flex flex-col p-3 absolute">
                                         <span className='font-semibold'>Smart watches</span>
                                         <span className='text-sm text-slate-500'>Form</span>
@@ -136,7 +136,7 @@ const HomeFeature = () => {
                                 </div>
                             </div>
                             <div className="flex">
-                                <div className="flex h-40 w-[280px] border shrink-0 relative">
+                                <div className="flex h-[159px] w-[280px] border shrink-0 relative">
                                     <div className="flex flex-col p-3 absolute">
                                         <span className='font-semibold'>Kitchen mixer</span>
                                         <span className='text-sm text-slate-500'>Form</span>
@@ -148,7 +148,7 @@ const HomeFeature = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="flex h-40 w-[280px] border shrink-0 relative">
+                                <div className="flex h-[159px] w-[280px] border shrink-0 relative">
                                     <div className="flex flex-col p-3 absolute">
                                         <span className='font-semibold'>Blenders</span>
                                         <span className='text-sm text-slate-500'>Form</span>
@@ -160,7 +160,7 @@ const HomeFeature = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="flex h-40 w-[280px] border shrink-0 relative">
+                                <div className="flex h-[159px] w-[280px] border shrink-0 relative">
                                     <div className="flex flex-col p-3 absolute">
                                         <span className='font-semibold'>Home appliance</span>
                                         <span className='text-sm text-slate-500'>Form</span>
@@ -172,7 +172,7 @@ const HomeFeature = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="flex h-40 w-[280px] border shrink-0 relative">
+                                <div className="flex h-[159px] w-[280px] border shrink-0 relative">
                                     <div className="flex flex-col p-3 absolute">
                                         <span className='font-semibold'>Coffee maker</span>
                                         <span className='text-sm text-slate-500'>Form</span>
@@ -199,7 +199,7 @@ const HomeFeature = () => {
                         </div>
                         <div className="flex flex-wrap overflow-x-auto relative">
                             <div className="flex">
-                                <div className="flex h-40 w-[280px] border shrink-0 relative">
+                                <div className="flex h-[159px] w-[280px] border shrink-0 relative">
                                     <div className="flex flex-col p-3 absolute">
                                         <span className='font-semibold'>Smart watches</span>
                                         <span className='text-sm text-slate-500'>Form</span>
@@ -211,7 +211,7 @@ const HomeFeature = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="flex h-40 w-[280px] border shrink-0 relative">
+                                <div className="flex h-[159px] w-[280px] border shrink-0 relative">
                                     <div className="flex flex-col p-3 absolute">
                                         <span className='font-semibold'>Cameras</span>
                                         <span className='text-sm text-slate-500'>Form</span>
@@ -223,7 +223,7 @@ const HomeFeature = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="flex h-40 w-[280px] border shrink-0 relative">
+                                <div className="flex h-[159px] w-[280px] border shrink-0 relative">
                                     <div className="flex flex-col p-3 absolute">
                                         <span className='font-semibold'>Headphones</span>
                                         <span className='text-sm text-slate-500'>Form</span>
@@ -235,7 +235,7 @@ const HomeFeature = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="flex h-40 w-[280px] border shrink-0 relative">
+                                <div className="flex h-[159px] w-[280px] border shrink-0 relative">
                                     <div className="flex flex-col p-3 absolute">
                                         <span className='font-semibold'>Smart watches</span>
                                         <span className='text-sm text-slate-500'>Form</span>
@@ -249,7 +249,7 @@ const HomeFeature = () => {
                                 </div>
                             </div>
                             <div className="flex">
-                                <div className="flex h-40 w-[280px] border shrink-0 relative">
+                                <div className="flex h-[159px] w-[280px] border shrink-0 relative">
                                     <div className="flex flex-col p-3 absolute">
                                         <span className='font-semibold'>Gaming set</span>
                                         <span className='text-sm text-slate-500'>Form</span>
@@ -261,7 +261,7 @@ const HomeFeature = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="flex h-40 w-[280px] border shrink-0 relative">
+                                <div className="flex h-[159px] w-[280px] border shrink-0 relative">
                                     <div className="flex flex-col p-3 absolute">
                                         <span className='font-semibold'>Laptop & PC</span>
                                         <span className='text-sm text-slate-500'>Form</span>
@@ -273,7 +273,7 @@ const HomeFeature = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="flex h-40 w-[280px] border shrink-0 relative">
+                                <div className="flex h-[159px] w-[280px] border shrink-0 relative">
                                     <div className="flex flex-col p-3 absolute">
                                         <span className='font-semibold'>Tablets</span>
                                         <span className='text-sm text-slate-500'>Form</span>
@@ -285,7 +285,7 @@ const HomeFeature = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="flex h-40 w-[280px] border shrink-0 relative">
+                                <div className="flex h-[159px] w-[280px] border shrink-0 relative">
                                     <div className="flex flex-col p-3 absolute">
                                         <span className='font-semibold'>Smartphones</span>
                                         <span className='text-sm text-slate-500'>Form</span>
