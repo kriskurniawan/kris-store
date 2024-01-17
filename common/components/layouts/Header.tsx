@@ -15,9 +15,9 @@ function NavLink({ to, children }: any) {
 function MobileNav({ open, setOpen }: any) {
     return (
         <div className={`absolute top-0 left-0 h-screen w-full bg-white transform ${open ? "-translate-x-0" : "-translate-x-full opacity-0"} transition-transform duration-300 ease-in-out filter drop-shadow-md`}>
-            <div className="flex items-center justify-center filter bg-white h-16 shadow-sm md:hidden"> {/*logo container*/}
+            <Link href='/' className="flex items-center justify-center filter bg-white h-16 shadow-sm md:hidden"> {/*logo container*/}
                 <img src="/assets/icons/logo.svg" alt="" />
-            </div>
+            </Link>
             <div className='flex flex-col p-5 gap-5'>
                 <div className="flex gap-2 bg-blue">
                     <Icon icon="lucide:home" width="24" height="24" />
@@ -100,32 +100,34 @@ const Header = () => {
                         <span className={`h-1 w-full bg-black rounded-lg transition-all duration-300 ease-in-out ${open ? "opacity-0" : ""}`} />
                         <span className={`h-1 w-full bg-black rounded-lg transform transition duration-300 ease-in-out ${open ? "-rotate-45 -translate-y-2.5" : ""}`} />
                     </div>
-                    <img className='ml-5 md:ml-3 lg:ml-0' src="/assets/icons/logo.svg" alt="" />
+                    <Link href='/'>
+                        <img className='ml-5 md:ml-3 lg:ml-0' src="/assets/icons/logo.svg" alt="" />
+                    </Link>
                     <div className="hidden lg:flex">
                         <InputField className='ml-10 lg:w-80 w-60 border rounded-l-lg border-blue-600 focus:border-1 h-10' type="text" name="search" id="search" placeholder="Search" />
                         <select className='border border-blue-600 focus:border-1 border-l-0 h-10 max-[1150px]:hidden flex' name="category" id="">
                             <option value="">All Categories</option>
                         </select>
-                        <Button className='focus:border-1 border-l-0 h-10 bg-blue-600 text-white w-24 rounded-r-lg' type="submit">Search</Button>
+                        <Button className='focus:border-1 border-l-0 h-10 bg-blue-600 text-white w-24 rounded-r-lg hover:bg-blue-700' type="submit">Search</Button>
                     </div>
                 </div>
                 <div className="hidden lg:flex items-center gap-3">
-                    <div className="flex flex-col justify-center items-center h-14 w-14">
+                    <Link href='/' className="flex flex-col justify-center items-center h-14 w-16 hover:bg-blue-200 rounded-md">
                         <Icon icon="lucide:user" width="24" height="24" />
                         <span className="text-sm">Profile</span>
-                    </div>
-                    <div className="flex flex-col justify-center items-center h-14 w-14 max-[1266px]:hidden">
+                    </Link>
+                    <Link href='/' className="flex flex-col justify-center items-center h-14 w-16 max-[1266px]:hidden hover:bg-blue-200 rounded-md">
                         <Icon icon="lucide:message-square-text" width="24" height="24" />
                         <span className="text-sm">Message</span>
-                    </div>
-                    <div className="flex flex-col justify-center items-center h-14 w-14 max-[1266px]:hidden">
+                    </Link>
+                    <Link href='/' className="flex flex-col justify-center items-center h-14 w-16 max-[1266px]:hidden hover:bg-blue-200 rounded-md">
                         <Icon icon="lucide:heart" width="24" height="24" />
                         <span className="text-sm">Orders</span>
-                    </div>
-                    <div className="flex flex-col justify-center items-center h-14 w-14">
+                    </Link>
+                    <Link href='/' className="flex flex-col justify-center items-center h-14 w-16 hover:bg-blue-200 rounded-md">
                         <Icon icon="lucide:shopping-cart" width="24" height="24" />
                         <span className="text-sm">My cart</span>
-                    </div>
+                    </Link>
                 </div>
                 <div className="flex lg:hidden items-center">
                     <div className="flex flex-col justify-center items-center h-14 w-14">

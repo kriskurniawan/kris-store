@@ -27,32 +27,32 @@ const HomeCategory = () => {
                 </div>
             </div>
             <div className="hidden lg:flex w-full h-14 border-t border-b bg-white items-center px-32 justify-between fixed z-20">
-                <div className="flex gap-5">
-                    <div className="flex">
+                <div className="flex gap-3">
+                    <div className="flex hover:bg-blue-200 rounded-md p-1 cursor-pointer">
                         <Icon icon="lucide:menu" width="24" height="24" />
                         <span className='ml-2'>All Categories</span>
                     </div>
                     <div className="flex gap-5 max-[1160px]:hidden">
-                        <span>Hot offers</span>
-                        <span>Gift boxes</span>
-                        <span>Projects</span>
-                        <span>Menu items</span>
-                        <div className="flex">
+                        <Link href='/' className='hover:bg-blue-200 rounded-md p-1'>Hot offers</Link>
+                        <Link href='/' className='hover:bg-blue-200 rounded-md p-1'>Gift boxes</Link>
+                        <Link href='/' className='hover:bg-blue-200 rounded-md p-1'>Projects</Link>
+                        <Link href='/' className='hover:bg-blue-200 rounded-md p-1'>Menu items</Link>
+                        <div className="flex hover:bg-blue-200 rounded-md p-1 cursor-pointer">
                             <span className='ml-2'>Help</span>
                             <Icon icon="lucide:chevron-down" width="24" height="24" />
                         </div>
                     </div>
                 </div>
                 <div className="flex gap-5 items-center">
-                    <div className="flex">
+                    <Button className="flex hover:bg-blue-200 rounded-md p-1">
                         <span>English, USD</span>
                         <Icon icon="lucide:chevron-down" width="24" height="24" />
-                    </div>
-                    <div className="flex items-center">
+                    </Button>
+                    <Button className="flex items-center hover:bg-blue-200 rounded-md p-1">
                         <span>Ship to </span>
                         <img className='mx-1 w-6 h-4' src="/assets/icons/germany.png" alt="" />
                         <Icon icon="lucide:chevron-down" width="24" height="24" />
-                    </div>
+                    </Button>
                 </div>
             </div>
         </>
