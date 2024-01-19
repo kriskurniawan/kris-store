@@ -25,7 +25,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="hidden lg:flex bg-white w-full h-56 justify-center items-center">
-                <div className="flex mx-32 gap-16">
+                <div className="flex gap-16">
                     <div className="flex h-full w-72 py-5">
                         <div className="flex flex-col gap-3">
                             <img className='h-12 w-32' src="/assets/icons/logo.svg" alt="" />

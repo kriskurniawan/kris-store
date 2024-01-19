@@ -51,7 +51,7 @@ const HomeDeal = () => {
                     </div>
                 </div>
             </div>
-            <div className="hidden lg:flex px-32 mb-5">
+            <div className="hidden lg:flex mb-5">
                 <div className="bg-white w-full h-80 border flex rounded-lg">
                     <div className="w-80 h-full border p-5 shrink-0">
                         <div className="flex flex-col mb-5">

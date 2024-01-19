@@ -1,12 +1,12 @@
 'use client'
 
-import { Button } from '@/common/components/elements/Button'
-import React from 'react'
 import { CATEGORIES } from '@/common/constant/categories'
+import { Icon } from '@iconify/react/dist/iconify.js'
 import Link from 'next/link'
-import { Icon } from '@iconify/react';
+import React from 'react'
+import { Button } from '../elements/Button'
 
-const HomeCategory = () => {
+const Navigation = () => {
     return (
         <>
             <div className='ml-5 overflow-x-auto relative'>
@@ -26,7 +26,7 @@ const HomeCategory = () => {
                     ))}
                 </div>
             </div>
-            <div className="hidden lg:flex w-full h-14 border-t border-b bg-white items-center px-32 justify-between fixed z-20">
+            <div className="px-32 hidden lg:flex w-full h-14 border-t border-b bg-white items-center justify-between fixed z-20">
                 <div className="flex gap-3">
                     <div className="flex hover:bg-blue-200 rounded-md p-1 cursor-pointer">
                         <Icon icon="lucide:menu" width="24" height="24" />
@@ -59,4 +59,4 @@ const HomeCategory = () => {
     )
 }
 
-export default HomeCategory
+export default Navigation

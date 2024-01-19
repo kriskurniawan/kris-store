@@ -3,9 +3,9 @@ import React from 'react'
 const HomeRecommended = () => {
     return (
         <>
-            <div className='mb-3 lg:px-32'>
+            <div className='mb-3 lg:block'>
                 <div className='flex'>
-                    <span className='p-3 font-semibold text-xl'>Recommended items</span>
+                    <span className='mb-2 font-semibold text-xl'>Recommended items</span>
                 </div>
                 <div className='flex flex-wrap gap-2 lg:gap-3 justify-center h-full w-full'>
                     <div className="h-full w-48 border rounded-lg bg-white">
@@ -56,28 +56,6 @@ const HomeRecommended = () => {
                         <div className="gap-2 flex flex-col">
                             <div className='m-auto p-3'>
                                 <img className='w-44 h-44' src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704488183/kris-store/okxjuom3qcykmyzu1sae.png" alt="" />
-                            </div>
-                            <div className='m-auto p-3'>
-                                <span className='font-semibold'>$10.30</span>
-                                <span className='flex flex-wrap font-normal text-sm text-slate-500'>T-shirts with multiple colors, for men</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="h-full w-48 border rounded-lg bg-white">
-                        <div className="gap-2 flex flex-col">
-                            <div className='m-auto p-3'>
-                                <img className='w-44 h-44' src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704884435/kris-store/b8lc4vqjzvbxl43jkteg.png" alt="" />
-                            </div>
-                            <div className='m-auto p-3'>
-                                <span className='font-semibold'>$10.30</span>
-                                <span className='flex flex-wrap font-normal text-sm text-slate-500'>T-shirts with multiple colors, for men</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="h-full w-48 border rounded-lg bg-white">
-                        <div className="gap-2 flex flex-col">
-                            <div className='m-auto p-3'>
-                                <img className='w-44 h-44' src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704249540/kris-store/trza0kqss8vegyjrjug0.png" alt="" />
                             </div>
                             <div className='m-auto p-3'>
                                 <span className='font-semibold'>$10.30</span>

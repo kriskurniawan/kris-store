@@ -20,7 +20,7 @@ const HomeMask = () => {
                     </div>
                 </div>
             </div>
-            <div className='lg:flex mb-3 hidden px-32'>
+            <div className='lg:flex mb-3 hidden'>
                 <div className="flex w-full h-96 bg-gradient-to-r from-blue-700 to-yellow-100 m-auto rounded-lg relative">
                     <img className='w-[1200px] h-96 object-cover rounded-lg opacity-15' src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704256593/kris-store/yyt9xxump5e4kwxr8huj.png" alt="" />
                     <div className="flex flex-wrap p-10 absolute">

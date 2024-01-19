@@ -75,7 +75,7 @@ const HomeFeature = () => {
                 </div>
             </div>
             <div className="hidden lg:block">
-                <div className='flex px-32 mb-5'>
+                <div className='flex mb-5'>
                     <div className="bg-white w-full h-80 border flex rounded-lg">
                         <div className="w-80 h-80 border relative bg-yellow-200 shrink-0">
                             <img className='object-cover w-80 h-80 m-auto opacity-70' src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704851092/kris-store/ruuufqm9fnnivdinhi4w.jpg" alt="" />
@@ -188,7 +188,7 @@ const HomeFeature = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex px-32 mb-5'>
+                <div className='flex mb-5'>
                     <div className="bg-white w-full h-80 border flex rounded-lg">
                         <div className="w-80 h-80 border bg-sky-200 shrink-0 relative">
                             <img className='object-cover w-80 h-80 m-auto opacity-70' src="https://res.cloudinary.com/dnbel4bdy/image/upload/v1704863011/kris-store/ok3cffhip4spth2uew3m.png" alt="" />

@@ -6,9 +6,9 @@ import { Icon } from '@iconify/react';
 const HomeExtraService = () => {
     return (
         <>
-            <div className='hidden lg:block px-32 mb-3'>
+            <div className='hidden lg:block mb-3'>
                 <div className='flex'>
-                    <span className='p-3 font-semibold text-xl'>Our extra services</span>
+                    <span className='mb-2 font-semibold text-xl'>Our extra services</span>
                 </div>
                 <div className='flex gap-5'>
                     <div className="flex flex-col h-64 w-96 border rounded-lg bg-white relative">
